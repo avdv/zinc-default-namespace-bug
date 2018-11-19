@@ -1,0 +1,9 @@
+> clean
+
+# full compilation works
+> compile
+
+> rmFoo
+
+# fails with: `could not find implicit value for parameter bar: sbt.zinc.example.Bar`
+> compile
